@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- fuentes -->
+        <!-- montserrat -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- cierre fuentes -->
+        <link rel="icon" href="../assets/icons/chess.png" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>guía ajedrecística</title>
+    </head>
+    <body>
+        <!-- nav mobile -->
+        <nav id="nav-mobile">
+            <div class="nav-container">
+                <div class="">
+                    <label for="menu" class="nav-label">
+                        <img
+                            src="../assets/icons/menu.png"
+                            alt="menu"
+                            height="50px"
+                        />
+                    </label>
+                    <input type="checkbox" id="menu" class="nav-input" />
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="../index.html">inicio</a></li>
+                            <li><a href="../pages/piezas.html">piezas</a></li>
+                            <li><a href="../pages/tablero.html">tablero</a></li>
+                            <li>
+                                <a href="../pages/tacticas.html">tacticas</a>
+                            </li>
+                            <li>
+                                <a href="../pages/contacto.html">contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="../assets/icons/chess.png" alt="" height="50px" />
+            </div>
+        </nav>
+        <!-- cierre nav mobile -->
+        <!-- Inicio header -->
+        <header>
+            <div class="container-header">
+                <div class="">
+                    <ul class="ul-header">
+                        <li>
+                            <a href="../pages/piezas.html" class="link-header"
+                                >Piezas</a
+                            >
+                        </li>
+                        <li>
+                            <a href="../pages/tablero.html" class="link-header"
+                                >Tablero</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="../index.html" id="logo">
+                    <img
+                        src="../assets/icons/chess.png"
+                        alt="Logo"
+                        class="logo"
+                    />
+                </a>
+
+                <div class="">
+                    <ul class="ul-header">
+                        <li>
+                            <a href="../pages/tacticas.html" class="link-header"
+                                >Tácticas</a
+                            >
+                        </li>
+                        <li>
+                            <a href="../pages/contacto.html" class="link-header"
+                                >Contacto</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- cierre header -->
+
+        <!-- apertura main -->
+        <main class="main-grid">
+            <div class="aside-izq background-chess">
+                <div class="nav-secciones sticky">
+                    <ul class="nav-secciones-ul">
+                        <li class="nav-secciones-li">
+                            <a href="#" class="nav-secciones-enlace"> Inicio</a>
+                        </li>
+                        <li class="nav-secciones-li">
+                            <a
+                                href="#titulo-piezas"
+                                class="nav-secciones-enlace"
+                                >Piezas</a
+                            >
+                            <ul class="nav-subsecciones-ul">
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#rey  "
+                                        class="nav-subsecciones-enlace"
+                                        >Rey</a
+                                    >
+                                </li>
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#reina"
+                                        class="nav-subsecciones-enlace"
+                                        >Reina / Dama</a
+                                    >
+                                </li>
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#peon"
+                                        class="nav-subsecciones-enlace"
+                                        >Peón</a
+                                    >
+                                </li>
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#caballo"
+                                        class="nav-subsecciones-enlace"
+                                        >Caballo</a
+                                    >
+                                </li>
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#torre"
+                                        class="nav-subsecciones-enlace"
+                                        >Torre</a
+                                    >
+                                </li>
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#alfil"
+                                        class="nav-subsecciones-enlace"
+                                        >Alfíl</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cuerpo">
+                <h1 id="titulo-piezas">Piezas</h1>
+
+                <div class="img-container espacio-slider">
+                    <div class="container-all">
+                        <input
+                            type="radio"
+                            id="slide-1"
+                            name="image-silde"
+                            hidden
+                        />
+                        <input
+                            type="radio"
+                            id="slide-2"
+                            name="image-silde"
+                            hidden
+                        />
+                        <input
+                            type="radio"
+                            id="slide-3"
+                            name="image-silde"
+                            hidden
+                        />
+                        <input
+                            type="radio"
+                            id="slide-4"
+                            name="image-silde"
+                            hidden
+                        />
+                        <input
+                            type="radio"
+                            id="slide-5"
+                            name="image-silde"
+                            hidden
+                        />
+                        <input
+                            type="radio"
+                            id="slide-6"
+                            name="image-silde"
+                            hidden
+                        />
+                        <h6 id="cabecera-slider" class="text-align-center">
+                            toca la imagen para ir a su descripción
+                        </h6>
+                        <div class="slide">
+                            <div class="item-slide">
+                                <a href="#rey">
+                                    <img
+                                        src="../assets/images/piezas/rey.jpg"
+                                        alt=""
+                                        class="piezas-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="item-slide">
+                                <a href="#reina">
+                                    <img
+                                        src="../assets/images/piezas/reina.jpg"
+                                        alt=""
+                                        class="piezas-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="item-slide">
+                                <a href="#peon">
+                                    <img
+                                        src="../assets/images/piezas/peon.jpg"
+                                        alt=""
+                                        class="piezas-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="item-slide">
+                                <a href="#caballo">
+                                    <img
+                                        src="../assets/images/piezas/caballo.jpg"
+                                        alt=""
+                                        class="piezas-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="item-slide">
+                                <a href="#torre">
+                                    <img
+                                        src="../assets/images/piezas/torre.jpg"
+                                        alt=""
+                                        class="piezas-img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="item-slide">
+                                <a href="#alfil">
+                                    <img
+                                        src="../assets/images/piezas/alfil.jpg"
+                                        alt=""
+                                        class="piezas-img"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="pagination">
+                            <label for="slide-1" class="pagination-item">
+                                <img
+                                    src="../assets/images/piezas/rey.jpg"
+                                    alt=""
+                                    class="piezas-img"
+                            /></label>
+                            <label for="slide-2" class="pagination-item">
+                                <img
+                                    src="../assets/images/piezas/reina.jpg"
+                                    alt=""
+                                    class="piezas-img"
+                            /></label>
+                            <label for="slide-3" class="pagination-item">
+                                <img
+                                    src="../assets/images/piezas/peon.jpg"
+                                    alt=""
+                                    class="piezas-img"
+                            /></label>
+                            <label for="slide-4" class="pagination-item">
+                                <img
+                                    src="../assets/images/piezas/caballo.jpg"
+                                    alt=""
+                                    class="piezas-img"
+                            /></label>
+                            <label for="slide-5" class="pagination-item">
+                                <img
+                                    src="../assets/images/piezas/torre.jpg"
+                                    alt=""
+                                    class="piezas-img"
+                            /></label>
+                            <label for="slide-6" class="pagination-item">
+                                <img
+                                    src="../assets/images/piezas/alfil.jpg"
+                                    alt=""
+                                    class="piezas-img"
+                            /></label>
+                        </div>
+                    </div>
+
+                    <div class="texto-piezas">
+                        <h3 class="mt-4 mb-4 ms-2">Movimientos y capturas</h3>
+
+                        <p>
+                            El ajedrez tiene seis tipos de piezas (con su
+                            respectivo color para cada jugador, blanca o negra):
+                            el rey, la reina, el peón, el caballo, la torre y el
+                            alfil. Cada pieza tiene su propia y exclusiva manera
+                            de moverse. Hay algunas similitudes entre los
+                            movimientos de las distintas piezas. Todas las
+                            piezas, excepto el caballo, se mueven en línea
+                            recta, de manera horizontal, vertical o diagonal. No
+                            se pueden mover más allá del final del tablero y
+                            volver por el otro lado. Ninguna pieza, excepto el
+                            caballo, puede saltar sobre las demás piezas: todas
+                            las casillas entre la casilla en la que comienza su
+                            movimiento y la que lo finaliza deben estar vacías.
+                            El movimiento no puede finalizar en un cuadrado que
+                            esté ocupado en ese momento por una pieza del mismo
+                            color.
+                        </p>
+
+                        <p>
+                            Si la casilla en la que acaba su movimiento una
+                            pieza contiene una pieza del oponente, la pieza del
+                            oponente es “capturada” y se retira del juego. Todas
+                            las piezas pueden ser capturadas, excepto el rey. El
+                            juego termina en el movimiento anterior a la captura
+                            del rey: “ jaque mate”. La captura siempre requiere
+                            que la pieza atacante se coloque en la casilla de la
+                            pieza del oponente al realizar un movimiento normal.
+                            La única excepción es para la captura de un peón al
+                            paso. No es necesario capturar una pieza cuando se
+                            presenta la oportunidad de hacerlo, la captura es
+                            una opción. La única ocasión en la que es
+                            obligatorio realizar una captura es cuando el rey
+                            está en peligro y la única forma de detener el
+                            ataque es capturar la pieza atacante.
+                        </p>
+
+                        <p>
+                            Este juego, tal como se conoce actualmente, surgió
+                            en Europa durante el siglo xv, como evolución del
+                            juego persa shatranj, que a su vez surgió a partir
+                            del más antiguo llamado chaturanga, que se
+                            practicaba en la India en el siglo vi. La tradición
+                            de organizar competiciones de ajedrez empezó en el
+                            siglo xvi. El primer campeonato oficial del mundo de
+                            ajedrez se organizó en 1886. El ajedrez está
+                            considerado por el Comité Olímpico Internacional
+                            como un deporte, y las competiciones internacionales
+                            están reguladas por la FIDE. Los jugadores compiten
+                            a nivel individual en diferentes torneos, aunque
+                            también existen competiciones por equipos, siendo
+                            una de las más importantes las Olimpiadas de
+                            ajedrez.
+                        </p>
+                    </div>
+                </div>
+
+                <h3 id="rey" class="padding-texto">Rey</h3>
+                <p class="padding-texto">
+                    El rey es la pieza más importante del ajedrez. Si el rey
+                    está sitiado, de manera que su captura es inevitable, la
+                    partida se termina y ese jugador pierde. El rey tiene poca
+                    movilidad, por eso está considerado como una de las piezas
+                    más débiles del juego. El rey puede moverse a cualquier
+                    casilla adyacente, es decir, se puede mover una casilla en
+                    cualquier dirección: horizontal, vertical o diagonal. No se
+                    puede mover a una casilla ocupada por otra pieza del mismo
+                    color. El rey captura de la misma manera en que se mueve,
+                    colocándose en la casilla de la pieza oponente. Hay otra
+                    limitación adicional al movimiento del rey: no puede moverse
+                    a ninguna casilla que le expusiera al ataque de una pieza
+                    oponente (lo que se llama “jaque ”). Como resultado de dicha
+                    limitación, dos reyes nunca se pueden situar uno al lado del
+                    otro, ya que cualquier movimiento hacia el rey oponente
+                    pondría al rey que se está moviendo en jaque. El rey también
+                    se puede ver forzado a mover o capturar si está siendo
+                    atacado (“jaque”) y la única forma de detener el ataque es
+                    mover el rey.
+                </p>
+                <div class="container-img">
+                    <img
+                        src="../assets/images/piezas/movimientos/king.png"
+                        alt=""
+                    />
+                </div>
+
+                <h3 id="reina" class="padding-texto">Reina</h3>
+                <p class="padding-texto">
+                    La reina se considera como la pieza más poderosa del
+                    tablero. Se puede mover cualquier número de casillas en
+                    línea recta, tanto de manera horizontal como vertical o
+                    diagonal. La reina se mueve como la torre y el alfil juntos.
+                    Excepto en una captura, la reina se debe mover a una casilla
+                    desocupada y no puede saltar sobre otras piezas. La reina
+                    captura de la misma manera en la que se desplaza,
+                    colocándose en la casilla de la pieza oponente.
+                </p>
+                <div class="container-img">
+                    <img
+                        src="../assets/images/piezas/movimientos/queen.png"
+                        alt=""
+                    />
+                </div>
+
+                <h3 id="peon" class="padding-texto">Peón</h3>
+                <p class="padding-texto">
+                    El peón es la pieza más numerosa y la menos poderosa del
+                    tablero de ajedrez. Los peones tienen un movimiento inusual.
+                    Normalmente, el peón solo se mueve hacia delante, una
+                    casilla cada vez. Una excepción es la primera vez que se
+                    mueve un peón, que se puede mover dos casillas hacia
+                    delante. El peón no puede saltar sobre otras piezas,
+                    cualquier pieza que esté justo delante de un peón bloquea su
+                    avance a esa casilla. El peón es la única pieza que no
+                    captura de la misma manera que se mueve, sino que lo hace en
+                    diagonal. No puede capturar moviéndose hacia delante.
+                </p>
+                <p class="padding-texto">
+                    En la imagen que se muestra a continuación, el peón de más
+                    abajo aún está en su casilla original, así que puede moverse
+                    una o dos casillas hacia delante (lo cual se indica por la X
+                    verde). Puede capturar moviéndose hacia la derecha o hacia
+                    la izquierda en diagonal, pero solo si la casilla está
+                    ocupada por una pieza oponente (indicada por la X roja). De
+                    otro modo, no puede moverse en diagonal. El peón de más
+                    arriba ya se ha movido desde su casilla original. Solo se
+                    puede mover una casilla hacia delante. Asimismo, puede
+                    capturar en diagonal hacia la derecha o hacia la izquierda
+                    si la casilla contiene una pieza oponente.
+                </p>
+                <div class="container-img">
+                    <img
+                        src="../assets/images/piezas/movimientos/pawn.png"
+                        alt=""
+                    />
+                </div>
+
+                <h3 id="caballo" class="padding-texto">Caballo</h3>
+                <p class="padding-texto">
+                    El caballo es la pieza más especial en el ajedrez, ya que
+                    tiene una flexibilidad que le hace una pieza poderosa. El
+                    caballo es la única pieza del tablero que puede saltar sobre
+                    otras piezas. El caballo se mueve dos casillas en dirección
+                    horizontal o vertical y después una casilla más en ángulo
+                    recto. El movimiento del caballo tiene la forma de una “L ”.
+                    El caballo siempre se cae sobre una casilla del color
+                    contrario a la de su casilla inicial. El caballo puede
+                    saltar sobre piezas de cualquier color mientras se mueve
+                    hasta su casilla de destino, pero no captura a ninguna de
+                    las piezas sobre las que salte. El caballo realiza la
+                    captura colocándose en la casilla de la pieza oponente. El
+                    caballo no puede colocarse en una casilla ocupada por una
+                    pieza del mismo color. Como el movimiento del caballo no es
+                    en línea recta, puede atacar a una reina, a un alfil o a una
+                    torre sin ser atacado por dichas piezas de manera recíproca.
+                </p>
+                <div class="container-img">
+                    <img
+                        src="../assets/images/piezas/movimientos/knight.png"
+                        alt=""
+                    />
+                </div>
+
+                <h3 id="torre" class="padding-texto">Torre</h3>
+                <p class="padding-texto">
+                    La torre se mueve en una línea recta horizontal o vertical a
+                    lo largo de cualquier número de casillas desocupadas, hasta
+                    que alcanza el final del tablero o es bloqueado por otra
+                    pieza. No puede saltar sobre otras piezas. La torre captura
+                    de la misma manera en la que se mueve, ocupando la casilla
+                    en la que está la pieza oponente. La torre puede colocarse
+                    en cualquier casilla del tablero, por tanto es una de las
+                    piezas más poderosas.
+                </p>
+                <div class="container-img">
+                    <img
+                        src="../assets/images/piezas/movimientos/rook.png"
+                        alt=""
+                    />
+                </div>
+
+                <h3 id="alfil" class="padding-texto">Alfíl</h3>
+                <p class="padding-texto">
+                    El alfil se mueve sobre el tablero en una línea recta
+                    diagonal. Se puede mover tantas casillas como se quiera,
+                    hasta que se encuentre con el final del tablero o con otra
+                    pieza. El alfil no puede saltar sobre otras piezas. Captura
+                    del mismo modo que se desplaza, colocándose en la casilla de
+                    la pieza oponente. Debido a la manera en la que se mueve el
+                    alfil, la pieza siempre permanece en las casillas del mismo
+                    color que su casilla original. Cada jugador empieza con dos
+                    alfiles, uno en la casilla blanca y otro en la casilla
+                    negra. Con frecuencia se le llaman alfil de las casillas
+                    “negras” y alfil de las casillas “blancas”. Los alfiles
+                    también se pueden llamar según el lado en el que empiezan,
+                    alfil del rey o alfil de la reina.
+                </p>
+                <div class="container-img">
+                    <img
+                        src="../assets/images/piezas/movimientos/bishop.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+
+            <div class="aside-der background-chess"></div>
+        </main>
+        <!-- cierre main -->
+        <!-- apertura footer -->
+        <footer>
+            <div class="container-footer">
+                <div class="box-footer">
+                    <div class="logo">
+                        <img src="./assets/images/footer/logo.png" alt="" />
+                    </div>
+                    <div class="terms">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptas impedit cum cumque velit libero
+                            officiis quam doloremque reprehenderit quae
+                            corporis! Delectus architecto officia praesentium
+                            atque laudantium, nam deleniti sapiente deserunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <h2>Youtubers Ajedrecístas</h2>
+                    <a target="_blank" href="https://www.youtube.com/@Reydama"
+                        >Rey dama</a
+                    >
+                    <a target="_blank" href="https://www.youtube.com/@ReyEnigma"
+                        >Rey Enigma</a
+                    >
+                    <a href="https://www.youtube.com/@ManuelMorsa"
+                        >Manuel Morsa</a
+                    >
+                    <a
+                        target="_blank"
+                        href="https://www.youtube.com/@PartidasInmortalesdeAjedrez"
+                        >Partidas inmortales de ajedrez</a
+                    >
+                </div>
+
+                <div class="box-footer">
+                    <h2>Redes Sociales</h2>
+                    <a href="#"> <i class="fab"></i> Facebook</a>
+                    <a href="#"><i class="fab"></i> Twitter</a>
+                    <a href="#"><i class="fab"></i> Linkedin</a>
+                    <a href="#"><i class="fab"></i> Instagram</a>
+                </div>
+            </div>
+
+            <div class="box-copyright">
+                <hr />
+                <p>Todos los derechos reservados © 2022 <b>ChessGroup</b></p>
+            </div>
+        </footer>
+        <!-- cierre footer -->
+    </body>
+</html>

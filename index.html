@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- fuentes -->
+        <!-- montserrat -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- cierre fuentes -->
+        <link rel="icon" href="./assets/icons/chess.png" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>guía ajedrecística</title>
+    </head>
+    <body>
+        <!-- nav mobile -->
+        <nav id="nav-mobile">
+            <div class="nav-container">
+                <div class="">
+                    <label for="menu" class="nav-label">
+                        <img
+                            src="./assets/icons/menu.png"
+                            alt="menu"
+                            height="50px"
+                        />
+                    </label>
+                    <input type="checkbox" id="menu" class="nav-input" />
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="./index.html">inicio</a></li>
+                            <li><a href="./pages/piezas.html">piezas</a></li>
+                            <li><a href="./pages/tablero.html">tablero</a></li>
+                            <li>
+                                <a href="./pages/tacticas.html">tacticas</a>
+                            </li>
+                            <li>
+                                <a href="./pages/contacto.html">contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="./assets/icons/chess.png" alt="" height="50px" />
+            </div>
+        </nav>
+        <!-- cierre nav mobile -->
+        <!-- Inicio header -->
+        <header>
+            <div class="container-header">
+                <ul>
+                    <li>
+                        <a href="./pages/piezas.html" class="link-header"
+                            >Piezas</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./pages/tablero.html" class="link-header"
+                            >Tablero</a
+                        >
+                    </li>
+                </ul>
+
+                <a href="./index.html" id="logo">
+                    <img
+                        src="./assets/icons/chess.png"
+                        alt="Logo"
+                        class="logo"
+                    />
+                </a>
+
+                <ul>
+                    <li>
+                        <a href="./pages/tacticas.html" class="link-header"
+                            >Tácticas</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./pages/contacto.html" class="link-header"
+                            >Contacto</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- cierre header -->
+        <!-- apertura main -->
+        <main id="main-index" class="main-grid">
+            <div class="aside-izq background-chess">
+                <div class="nav-secciones sticky">
+                    <ul class="nav-secciones-ul">
+                        <li class="nav-secciones-li">
+                            <a href="#" class="nav-secciones-enlace"> Inicio</a>
+                        </li>
+                        <li class="nav-secciones-li">
+                            <a
+                                href="#historia-ajedrez"
+                                class="nav-secciones-enlace"
+                                >Historia del ajedrez</a
+                            >
+                            <ul class="nav-subsecciones-ul">
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#una-gran-familia"
+                                        class="nav-subsecciones-enlace"
+                                        >Una gran familia</a
+                                    >
+                                </li>
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#pasatiempo-internacional"
+                                        class="nav-subsecciones-enlace"
+                                        >Pasatiempo internacional</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-secciones-li">
+                            <a href="#" class="nav-secciones-enlace">seccion</a>
+                        </li>
+                        <li class="nav-secciones-li">
+                            <a href="#" class="nav-secciones-enlace">seccion</a>
+                        </li>
+                        <li class="nav-secciones-li">
+                            <a href="#" class="nav-secciones-enlace">seccion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cuerpo">
+                <div class="encabezado">
+                    <h1 id="titulo">Ajedrez</h1>
+                    <div class="">
+                        <a href="#historia-ajedrez" class="temas-link"
+                            ><span class="quitar">sig. sección</span> ⬇</a
+                        >
+                    </div>
+                </div>
+
+                <p>
+                    El ajedrez es un juego de estrategia en el que dos personas
+                    se desafían frente a un tablero cuadriculado de 64 casillas
+                    y dos grupos de figuras, 16 para cada jugador, unas blancas
+                    y otras negras: un rey, una dama, dos alfiles, dos caballos,
+                    dos torres y ocho peones. El Comité Olímpico Internacional
+                    (COI) lo considera un deporte y la Federación Internacional
+                    de Ajedrez (FIDE) regula las competiciones internacionales.
+                </p>
+
+                <div class="container-img">
+                    <img
+                        src="./assets/images/ajedrez-chino.jpg"
+                        alt="ajedrez chino"
+                        id="ajedrez-chino"
+                        class="img-index"
+                    />
+                </div>
+
+                <p>
+                    El objetivo del ajedrez es derrocar al rey del oponente y,
+                    para ello, cada jugador debe intentar acercarse a la casilla
+                    ocupada por esta figura y presionar hasta que quede
+                    desprotegida y pueda decir jaque mate. Fin de la partida.
+                </p>
+                <p>
+                    El ajedrez es considerado un deporte mental, ya que
+                    trasciende al propio juego. Incluso hay quien lo eleva a la
+                    categoría de arte y ciencia. Además, es divertido, saludable
+                    y puede practicarlo personas de todas las edades. Nunca es
+                    tarde para aprender a jugar, sobre todo por los numerosos
+                    beneficios que aporta.
+                </p>
+                <p>
+                    Un estudio del Hospital Universitario de Valencia concluye
+                    que el ajedrez estimula la actividad mental y la memoria. En
+                    la investigación participaron 120 personas de entre 57 y 87
+                    años, divididos en dos grupos de 60. El primero recibió un
+                    curso de ajedrez durante un año y el segundo actividades que
+                    exigían poco rendimiento cerebral. Los resultados fueron
+                    reveladores: el 65% de las personas que jugaron al ajedrez
+                    mejoraron su orientación espacio temporal y la rapidez
+                    mental, mientras que el segundo grupo no. Por tanto, el
+                    ajedrez puede emplearse como una excelente terapia de
+                    estimulación cognitiva y para prevenir enfermedades como el
+                    Alzheimer.
+                </p>
+                <p>
+                    Por otra parte, como el ajedrez exige una gran
+                    concentración, mejora el nivel de atención de quien lo
+                    practica. También potencia la capacidad de enfrentarse a
+                    diferentes situaciones y la habilidad para resolver
+                    problemas, gracias al diseño de movimientos y estrategias.
+                    Además, como los jugadores deben tomar decisiones de manera
+                    rápida bajo presión, se desarrolla un pensamiento creativo y
+                    original.
+                </p>
+                <p>
+                    Este deporte también enseña a planificar y anticiparse a los
+                    movimientos del contrincante, al mismo tiempo que potencia
+                    el autocontrol y el buen juicio. Asimismo, mover las piezas
+                    por el tablero es una buena terapia motora y favorece la
+                    coordinación entre movimiento pensado y realizado.
+                </p>
+                <p>
+                    Sin olvidar los valores positivos que transmite el ajedrez:
+                    la lucha y el espíritu de superación, la autoestima, el
+                    respeto al rival o aceptar el resultado de la partida con
+                    deportividad.
+                </p>
+                <p>
+                    Y si no encontramos un contrincante a nuestra altura o
+                    estamos aprendiendo y queremos practicar movimientos y
+                    estrategias, en Internet existen numerosos programas
+                    diseñados para jugar contra el ordenador.
+                </p>
+                <p>
+                    En la Federación Española de Ajedrez (www.feda.org)
+                    encontrarás el calendario deportivo nacional e
+                    internacional, así como el reglamento y el contacto de las
+                    diferentes federaciones autonómicas.
+                </p>
+                <p>
+                    Terminemos con una interesante cita de Gary Kasparov: "Veo
+                    en la lucha ajedrecística un modelo pasmosamente exacto de
+                    la vida humana, con su trajín diario, sus crisis y sus
+                    incesantes altibajos".
+                </p>
+
+                <hr />
+
+                <div
+                    class="encabezado d-flex justify-content-between align-items-center"
+                >
+                    <h2 class="subtitulo" id="historia-ajedrez">
+                        Historia del ajedrez
+                    </h2>
+                    <div class="nav-temas">
+                        <a href="#titulo" class="temas-link"
+                            ><span class="quitar">ant. sección</span> ⬆</a
+                        >
+                        <a href="#historia-ajedrez" class="temas-link"
+                            ><span class="quitar">sig. sección</span> ⬇</a
+                        >
+                    </div>
+                </div>
+
+                <p>
+                    “un día, un embajador del rey de Hind llegó a la corte persa
+                    de Cosroes, y después de un intercambio de cortesías, sacó
+                    ricos regalos de su soberano y entre ellos había un tablero
+                    elaborado con piezas de ébano y marfil curiosamente
+                    talladas. Luego lanzó un desafío: 'Oh gran rey, llama a tus
+                    sabios y haz que resuelvan los misterios de este juego. Si
+                    tienen éxito, mi amo el rey de Hind te pagará tributo como
+                    señor supremo, pero si fallan será una prueba de que los
+                    persas tienen un intelecto inferior y exigiremos tributo a
+                    Irán'”.
+                </p>
+                <p>
+                    Este fragmento del poema épico persa Shahnameh (“Libro de
+                    los reyes”) es la primera mención conocida del origen del
+                    ajedrez. Según su autor, el poeta Fedrousí, el juego se
+                    había originado en el siglo VI a raíz de una disputa por el
+                    trono de Hind (India) entre los hermanos Gav y Talhand: el
+                    segundo había muerto en batalla y su madre, disgustada,
+                    recriminó a Gav que hubiera matado a su hermano. Este negó
+                    haberlo hecho y, para probar su inocencia, recreó la batalla
+                    usando piezas de marfil que representaban las cuatro
+                    unidades de combate del ejército: la infantería, la
+                    caballería, los elefantes y los carros.
+                </p>
+
+                <h3 id="una-gran-familia" class="sub-subtitulo">
+                    Una gran familia
+                </h3>
+
+                <p>
+                    Fuera cierta o no la leyenda que narra Fedrousí, sí se sabe
+                    que el ajedrez tiene su origen en el juego que describe: el
+                    chaturanga, cuyo nombre significa “cuatro divisiones” en
+                    referencia a las cuatro piezas que simbolizan las unidades
+                    del ejército indio. Estas son las más antiguas del juego y
+                    corresponden a los actuales peones (para la infantería),
+                    caballos (caballería), alfiles (elefantes) y torres (carros)
+                    de la versión moderna del juego.
+                </p>
+
+                <figure>
+                    <div class="container-img">
+                        <img
+                            src="./assets/images/chaturanga.jpg"
+                            alt="chaturanga"
+                            id="chaturanga"
+                            class="img-index"
+                        />
+                    </div>
+
+                    <figcaption class="pie-foto">
+                        El chaturanga, antecesor del ajedrez, se jugaba con
+                        cinco tipos de piezas: un rey, un elefante, un caballero
+                        y un carro en la fila trasera, y cuatro infantes en la
+                        fila delantera. Existían dos variantes del juego, una
+                        para cuatro jugadores y una para dos; en esta última,
+                        cada jugador contaba con un rey, un general, ocho
+                        infantes, dos elefantes, dos caballos y dos carros,
+                        siguiendo el esquema actual del ajedrez.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Su popularidad explica la gran diversidad de piezas y
+                    reglas: existen más de doscientos tipos de piezas de
+                    ajedrez, que el historiador David Parlett -especializado en
+                    historia de los juegos- recopiló en su libro The Oxford
+                    History of Board Games. En la versión internacional del
+                    juego, solo seis son consideradas “ortodoxas” o estándar: el
+                    peón, la torre, el alfil, el caballo, la reina o dama y el
+                    rey. Los juegos emparentados tienen sus propias piezas que
+                    reflejan la tradición militar de cada lugar: así, por
+                    ejemplo, el xiangqi tiene cañones y el shogi, lanceros.
+                </p>
+
+                <figure>
+                    <div class="container-img">
+                        <img
+                            src="./assets/images/ajedrez-humano.jpg"
+                            alt="human_chess"
+                            class="img-index"
+                        />
+                    </div>
+
+                    <figcaption class="pie-foto">
+                        Una de las variantes más llamativas del juego es el
+                        ajedrez humano, en el que las personas -a veces
+                        ataviadas con ropas de época- actúan como piezas.
+                    </figcaption>
+                </figure>
+
+                <h3 id="pasatiempo-internacional" class="sub-subtitulo">
+                    Pasatiempo Internacional
+                </h3>
+
+                <p>
+                    La razón de esta gran diversidad se puede atribuir en parte
+                    a las grandes rutas comerciales euroasiáticas
+                    (principalmente la Ruta de la Seda) y en parte a los
+                    imperios musulmanes de la Edad Media. Los árabes adoptaron
+                    muchas costumbres persas, entre ellas este juego que se
+                    había vuelto popular en la corte del Imperio Sasánida, y lo
+                    extendieron por Europa y por Asia. Del persa procede también
+                    la expresión shah mat, “el rey está acabado”: lo que
+                    conocemos como checkmate o jaque mate.
+                </p>
+
+                <p>
+                    Los registros históricos y hallazgos arqueológicos
+                    demuestran que el ajedrez era ya un pasatiempo internacional
+                    a mediados de la Edad Media. Era el juego favorito de
+                    monarcas tan conocidos como Alfonso el Sabio, Iván el
+                    Terrible o el califa Harún al-Rashid, quien regaló un juego
+                    de marfil al emperador Carlomagno. También de esa época
+                    procede una magnífica colección de 78 piezas vikingas
+                    fabricadas con colmillos de morsa.
+                </p>
+
+                <figure>
+                    <div class="container-img">
+                        <img
+                            src="./assets/images/medieval.jpg"
+                            alt="medieval"
+                            class="img-index"
+                        />
+                    </div>
+                    <figcaption class="pie-foto">
+                        Piezas de ajedrez de la Isla de Lewis (Escandinavia),
+                        elaboradas con dientes de morsa y ballena, mitad del
+                        siglo XII. Este es uno de los pocos conjuntos completos
+                        de piezas de ajedrez medievales.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Resulta interesante constatar como la evolución de las
+                    piezas refleja el clima de cada momento y lugar: tenemos un
+                    ejemplo de ello a finales del siglo XV, cuando el ajedrez se
+                    volvió especialmente popular en Europa. En aquel entonces
+                    varias piezas se transformaron considerablemente para
+                    adaptarlo a la naturaleza de las cortes europeas: el
+                    consejero, una pieza introducida por los persas, se
+                    transformó en reina; y el alfil y la torre tomaron diversas
+                    apariencias dependiendo del país hasta que se aceptaron como
+                    internacionales sus formas actuales.
+                </p>
+            </div>
+            <div class="aside-der col-2 background-chess"></div>
+        </main>
+        <!-- cierre main -->
+        <!-- apertura footer -->
+        <footer>
+            <div class="container-footer">
+                <div class="box-footer">
+                    <div class="logo">
+                        <img src="./assets/images/footer/logo.png" alt="" />
+                    </div>
+                    <div class="terms">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptas impedit cum cumque velit libero
+                            officiis quam doloremque reprehenderit quae
+                            corporis! Delectus architecto officia praesentium
+                            atque laudantium, nam deleniti sapiente deserunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <h2>Youtubers Ajedrecístas</h2>
+                    <a target="_blank" href="https://www.youtube.com/@Reydama"
+                        >Rey dama</a
+                    >
+                    <a target="_blank" href="https://www.youtube.com/@ReyEnigma"
+                        >Rey Enigma</a
+                    >
+                    <a href="https://www.youtube.com/@ManuelMorsa"
+                        >Manuel Morsa</a
+                    >
+                    <a
+                        target="_blank"
+                        href="https://www.youtube.com/@PartidasInmortalesdeAjedrez"
+                        >Partidas inmortales de ajedrez</a
+                    >
+                </div>
+
+                <div class="box-footer">
+                    <h2>Redes Sociales</h2>
+                    <a href="#"> <i class="fab"></i> Facebook</a>
+                    <a href="#"><i class="fab"></i> Twitter</a>
+                    <a href="#"><i class="fab"></i> Linkedin</a>
+                    <a href="#"><i class="fab"></i> Instagram</a>
+                </div>
+            </div>
+
+            <div class="box-copyright">
+                <hr />
+                <p>Todos los derechos reservados © 2022 <b>ChessGroup</b></p>
+            </div>
+        </footer>
+        <!-- cierre footer -->
+    </body>
+</html>

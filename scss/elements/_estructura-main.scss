@@ -1,0 +1,27 @@
+/* estructura main */
+
+.main-grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aside-izq cuerpo aside-der";
+
+    .aside-izq {
+        grid-area: aside-izq;
+    }
+
+    .cuerpo {
+        padding: 1em;
+        grid-area: cuerpo;
+        position: relative;
+        z-index: 500;
+        box-shadow: 0 -20px 20px 1px;
+        background-color: rgb(255, 247, 233);
+    }
+
+    .aside-der {
+        grid-area: aside-der;
+    }
+}

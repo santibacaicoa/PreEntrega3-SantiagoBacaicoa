@@ -1,0 +1,52 @@
+/* estilos para textos y headliners */
+
+.encabezado {
+    margin: 0.5rem 0.8rem 0.5rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo {
+    font-size: 3rem;
+    line-height: 1em;
+}
+
+.subtitulo {
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.sub-subtitulo {
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+.cuerpo p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 1em 0;
+    font-family: Roboto;
+}
+
+.temas-link {
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
+
+.temas-link:hover {
+    color: rgb(88, 88, 88);
+}
+
+.pie-foto {
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 1rem;
+    border-left: #cc2e43 solid 1px;
+    padding-left: 1rem;
+    width: 80%;
+}
+
+.padding-texto {
+    padding: 0 2em;
+}

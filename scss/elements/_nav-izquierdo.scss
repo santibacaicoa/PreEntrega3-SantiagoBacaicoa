@@ -1,0 +1,65 @@
+/* apertura nav izquierdo */
+
+.sticky {
+    position: sticky;
+    top: 1%;
+}
+
+.nav-secciones {
+    text-align: center;
+    margin: 3% 6%;
+    padding: 2%;
+    box-shadow: 0 0 10px 0;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.704);
+}
+
+.nav-secciones-ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+
+.nav-secciones-li {
+    margin-bottom: 1rem;
+}
+
+.nav-secciones-enlace {
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.nav-secciones-enlace:hover {
+    color: rgb(251, 207, 127);
+    text-decoration: underline;
+}
+
+.nav-subsecciones-ul {
+    padding: 0;
+    color: white;
+    list-style-type: none;
+    padding-top: 0.5rem;
+}
+
+.nav-subsecciones-li {
+    padding-top: 0.5rem;
+}
+
+.nav-subsecciones-enlace {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: color 0.4s;
+}
+
+.nav-subsecciones-enlace:hover {
+    color: rgb(251, 207, 127);
+}
+
+.enlaces-inferior-li:hover {
+    color: rgb(251, 207, 127);
+}

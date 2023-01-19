@@ -1,0 +1,78 @@
+/* apertura pagina de contacto */
+
+#main-contacto {
+    height: 800px;
+}
+
+.contenedor-contacto {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 75%;
+}
+
+.form-title {
+    font-weight: normal;
+    color: #f0f4f7;
+    padding: 0.9rem 0;
+}
+
+.form {
+    background: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    padding: 0.2rem 2.1rem 2rem 2.1rem;
+    border-radius: 3px;
+}
+
+.form-label {
+    display: block;
+    color: rgb(251, 207, 127);
+    font-size: 1rem;
+    position: relative;
+}
+
+.form a {
+    text-decoration: none;
+}
+
+.form-input,
+.form-textarea {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+.form-textarea {
+    resize: vertical;
+    max-height: 100px;
+    min-height: 50px;
+}
+
+.btn-submit {
+    width: 100%;
+    outline: none;
+    background: rgb(255, 193, 79);
+    font-size: 16px;
+    border: none;
+    color: black;
+    padding: 1rem 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn-submit:hover {
+    background: rgb(255, 211, 129);
+}
+
+/* cierre pagina de contacto */

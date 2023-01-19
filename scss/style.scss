@@ -1,0 +1,38 @@
+html {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em;
+    box-sizing: border-box;
+    font-family: Montserrat, Tahoma, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+@import "./variables";
+
+@import "./condicional";
+
+@import "./elements/textos-headliners";
+
+@import "./elements/estilos-imagen";
+
+@import "./elements/header";
+
+@import "./elements/nav-mobile";
+
+@import "./elements/estructura-main";
+
+@import "./elements/footer";
+
+@import "./pages";
+
+@import "./elements/media-queries";
+
+@import "./elements/nav-izquierdo";
