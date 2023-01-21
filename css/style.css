@@ -84,6 +84,13 @@ html {
   background-image: url(../assets/images/fondo-cuadricula.jpg);
   background-repeat: repeat; }
 
+.tactica-img {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%; }
+  .tactica-img img {
+    width: 100%; }
+
 /* Inicio header (parar todas las páginas)*/
 header {
   z-index: 1000;
@@ -371,13 +378,6 @@ input[id="slide-6"]:checked ~ .pagination .pagination-item[for="slide-6"] {
   list-style-type: disc;
   list-style-position: inside; }
 
-.tactica-img {
-  text-align: center;
-  margin: 0 auto;
-  width: 50%; }
-  .tactica-img img {
-    width: 100%; }
-
 .fig-tacticas {
   text-align: center;
   margin: auto;
@@ -393,7 +393,8 @@ input[id="slide-6"]:checked ~ .pagination .pagination-item[for="slide-6"] {
     display: none; }
   .espacio-slider {
     display: block;
-    text-align: center; }
+    text-align: center;
+    margin: auto; }
   .container-all {
     margin: auto; } }
 
@@ -415,7 +416,9 @@ input[id="slide-6"]:checked ~ .pagination .pagination-item[for="slide-6"] {
 
 @media screen and (max-width: 664px) {
   .main-grid {
-    grid-template-columns: 2% 96% 2%; } }
+    grid-template-columns: 2% 96% 2%; }
+  .fig-tacticas {
+    width: 100%; } }
 
 @media screen and (max-width: 480px) {
   .main-grid {
@@ -427,8 +430,6 @@ input[id="slide-6"]:checked ~ .pagination .pagination-item[for="slide-6"] {
   .cuerpo {
     height: 100%; }
   .tactica-img {
-    width: 100%; }
-  .fig-tacticas {
     width: 100%; } }
 
 @media screen and (max-width: 320px) {

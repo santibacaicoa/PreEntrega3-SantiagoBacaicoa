@@ -20,7 +20,7 @@
             rel="stylesheet"
         />
         <!-- cierre fuentes -->
-        <link rel="icon" href="../assets/icons/chess.png" />
+        <link rel="icon" href="./assets/icons/chess.webp" />
         <link rel="stylesheet" href="../css/style.css" />
         <title>guía ajedrecística</title>
     </head>
@@ -121,7 +121,14 @@
                     ajedrez y te proporcionará una visión general de los 5
                     motivos tácticos esenciales.
                 </p>
-                <h3>la clavada</h3>
+                <div class="encabezado">
+                    <h3 id="clavada">La clavada</h3>
+                    <div>
+                        <a href="#horquilla" class="temas-link"
+                            ><span class="quitar">sig. sección</span> ⬇</a
+                        >
+                    </div>
+                </div>
                 <p>
                     La clavada es una situación en la cual la pieza de un
                     jugador no puede, o no es aconsejable, moverse debido a una
@@ -157,7 +164,7 @@
                 <div class="tactica-img">
                     <img
                         src="../assets/images/tacticas/tactica-1.webp"
-                        alt=""
+                        alt="la clavada"
                     />
                 </div>
                 <figcaption class="fig-tacticas">
@@ -176,6 +183,7 @@
                     y no solo en el lado del tablero donde se desarrolla la
                     acción.
                 </p>
+
                 <p>
                     La siguiente posición es un gran ejemplo para ilustrar el
                     peligro de las clavadas para ambos bandos. Si miras la
@@ -211,18 +219,172 @@
                     su torre y no deben tomar la torre blanca ya que pierden la
                     dama (2…Txh6 3.Dxe7) debido a la clavada.
                 </p>
-                <h3>La Horquilla</h3>
-                <img
-                    src="../assets/images/tacticas/tactica-3.webp"
-                    alt="Horquilla"
-                />
-                <figcaption class="fig-tacticas">
+                <div class="encabezado">
+                    <h3 id="horquilla">La Horquilla</h3>
+                    <div class="nav-temas">
+                        <a href="#clavada" class="temas-link"
+                            ><span class="quitar">ant. sección</span> ⬆</a
+                        >
+                        <a href="#descubierta" class="temas-link"
+                            ><span class="quitar">sig. sección</span> ⬇</a
+                        >
+                    </div>
+                </div>
+                <p>
                     Otro tipo de táctica de ajedrez es la horquilla o ataque
                     doble. Una horquilla es un movimiento que ataca dos o más
                     piezas enemigas al mismo tiempo. Una ventaja importante de
                     la horquilla es que es difícil rechazar dos amenazas con un
                     solo movimiento.
+                </p>
+                <p>Aquí hay un ejemplo:</p>
+                <div class="tactica-img">
+                    <img
+                        src="../assets/images/tacticas/tactica-3.webp"
+                        alt="Horquilla"
+                    />
+                </div>
+                <figcaption class="fig-tacticas">
+                    Las piezas blancas parecen mucho más activas que las negras
+                    en la posición del diagrama. Sin embargo, la dama blanca
+                    está bajo ataque y si retrocede, el movimiento …c7-c6
+                    (atacando al caballo en d5 que está defendiendo la torre en
+                    e7) es muy desagradable para las blancas.
                 </figcaption>
+                <p>
+                    Por lo tanto el blanco necesita encontrar una solución
+                    directa a sus problemas. 1.T1xe5! elimina el fuerte caballo
+                    negro en e5 y obliga a las negras a capturar la calidad
+                    después de 2…dxe5. El blanco sigue con 2.Td7! atacando a la
+                    dama negra que no tiene tantas casillas libres ya que 2…Dc8
+                    pierde por la horquilla 3.Ce7+ y 2…De8 pierde por otra
+                    horquilla 3.Cf6+!
+                </p>
+                <div class="encabezado">
+                    <h3 id="descubierta">El jaque a descubierta</h3>
+                    <div class="nav-temas">
+                        <a href="#horquilla" class="temas-link"
+                            ><span class="quitar">ant. sección</span> ⬆</a
+                        >
+                        <a href="#promocion" class="temas-link"
+                            ><span class="quitar">sig. sección</span> ⬇</a
+                        >
+                    </div>
+                </div>
+                <p>
+                    La tercera de nuestras tácticas de ajedrez esenciales es el
+                    jaque a la descubierta, lo que significa dar un jaque
+                    moviendo una pieza que estaba bloqueando a otra, que es la
+                    que en definitiva hace el jaque.5 Tipos De Tácticas De
+                    Ajedrez Por ejemplo, mira la siguiente posición:
+                </p>
+                <div class="tactica-img">
+                    <img
+                        src="../assets/images/tacticas/tactica-4.webp"
+                        alt="jaque a Descubierto"
+                    />
+                </div>
+                <figcaption class="fig-tacticas">
+                    Es el turno del blanco y su torre en b6 está colgando. Si
+                    cambia torres en b1, no será fácil convertir su peón
+                    adicional en una larga lucha en el final.
+                </figcaption>
+                <p>
+                    Afortunadamente, hay una solución más convincente para el
+                    blanco. Empiezan jugando 1.Cg6!, amenazando mate en h8 a la
+                    siguiente. Las negras no tienen otra opción y deben tomar la
+                    torre en b6 - 1…Txb6.
+                </p>
+                <p>
+                    Pero ahora las blancas pueden usar el jaque a la descubierta
+                    para recuperar su inversión de material e incluso ganar una
+                    torre adicional. 2.Cf8+ Rg8 (Rh8 no cambiará nada) 3.Cxd7+
+                    (¡jaque a la descubierta!) 3…Rf7 4.Cxb6. El blanco tiene
+                    torre de más y convertirá fácilmente su ventaja material en
+                    un punto completo.
+                </p>
+                <div class="encabezado">
+                    <h3 id="promocion">Promoción y subpromoción</h3>
+                    <div class="nav-temas">
+                        <a href="#descubierta" class="temas-link"
+                            ><span class="quitar">ant. sección</span> ⬆</a
+                        >
+                        <a href="#ultima" class="temas-link"
+                            ><span class="quitar">sig. sección</span> ⬇</a
+                        >
+                    </div>
+                </div>
+                <p>
+                    Si uno de tus peones alcanza la octava (o primera) fila del
+                    tablero de ajedrez, puedes «promocionarla» cambiándola a
+                    otra pieza, normalmente una dama.
+                </p>
+                <p>
+                    Cuando promocionas un peón por una pieza que no sea una dama
+                    (un caballo, un alfil o una torre), llamamos a esta tácticas
+                    de ajedrez «subpromoción». Presta atención al siguiente
+                    ejemplo:
+                </p>
+                <div class="tactica-img">
+                    <img
+                        src="../assets/images/tacticas/tactica-5.webp"
+                        alt="Promoción y subpromoción"
+                    />
+                </div>
+                <figcaption class="fig-tacticas">
+                    En esta posición, el blanco juega 1.Te8+ Txe8 y ahora
+                    2.Dxg7+! Rxg7 3.fxe8=C+!
+                </figcaption>
+                <p>
+                    El blanco no promociona su peón en una nueva dama que lo
+                    dejaría con mucho trabajo por hacer hasta que el juego
+                    termine. Corona su peón en un caballo, haciendo una
+                    horquilla al rey y la dama. Con este pequeño truco, ahora la
+                    ventaja material del blanco es decisiva.
+                </p>
+                <div class="encabezado">
+                    <h3 id="ultima">Mate en ultima fila</h3>
+                    <div class="nav-temas">
+                        <a href="#promocion" class="temas-link"
+                            ><span class="quitar">ant. sección</span> ⬆</a
+                        >
+                    </div>
+                </div>
+                <p>
+                    El último tipo de tácticas de ajedrez es el mate en la
+                    última fila.
+                </p>
+                <div class="tactica-img">
+                    <img
+                        src="../assets/images/tacticas/tactica-6.webp"
+                        alt="mate en ultima fila"
+                    />
+                </div>
+                <figcaption class="fig-tacticas">
+                    En este caso, una torre o una dama da mate yendo a la última
+                    fila (1ª u 8ª fila) del tablero de ajedrez y los propios
+                    peones del oponente evitan que su rey escape. Para ilustrar
+                    esta táctica de ajedrez, echamos un vistazo a un famoso
+                    ejemplo del tercer campeón mundial de ajedrez, José Raúl
+                    Capablanca.
+                </figcaption>
+                <p>
+                    La posición que se muestra en el diagrama se alcanzó después
+                    del movimiento número 29 del blanco. El blanco tiene un peón
+                    de ventaja, pero se enfrenta a serios problemas en la última
+                    fila ya que su rey no tiene escapatoria en su 1ª fila.
+                    Dependen de la dama y la torre que controlan todas las
+                    casillas importantes en la 1ª fila.
+                </p>
+                <p>
+                    Capablanca, sin embargo, encontró una manera de hacer uso de
+                    las circunstancias y jugó la ganadora 29…Db2!
+                    Independientemente de lo que juegue ahora el blanco pierde
+                    la partida, 30.Dxb2 pierde por 30…Td1 mate, 30.Tc2 pierde
+                    después de 30…Db1+ 31.Df1 Dxc2 y 30.Tc8!? (tal vez el mejor
+                    intento ya que el negro pierde después de 30…Txc8 debido a
+                    31.Dxb2) pierde por 30…Da1+ 31.Df1 Dxf1+ 32.Rxf1 Txc8.
+                </p>
             </div>
 
             <div class="aside-der background-chess"></div>

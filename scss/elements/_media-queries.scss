@@ -15,6 +15,7 @@
     .espacio-slider {
         display: block;
         text-align: center;
+        margin: auto;
     }
 
     .container-all {
@@ -53,6 +54,10 @@
     .main-grid {
         grid-template-columns: 2% 96% 2%;
     }
+
+    .fig-tacticas {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -73,10 +78,6 @@
     }
 
     .tactica-img {
-        width: 100%;
-    }
-
-    .fig-tacticas {
         width: 100%;
     }
 }
