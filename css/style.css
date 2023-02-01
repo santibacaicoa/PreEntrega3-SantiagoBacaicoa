@@ -440,10 +440,9 @@ input[id="slide-6"]:checked ~ .pagination .pagination-item[for="slide-6"] {
     display: none; }
   .espacio-slider {
     display: block;
-    text-align: center;
-    margin: auto; }
-  .container-all {
-    margin: auto; } }
+    text-align: center; }
+    .espacio-slider .item-slide {
+      margin: auto; } }
 
 @media screen and (max-width: 768px) {
   .nav-container {
