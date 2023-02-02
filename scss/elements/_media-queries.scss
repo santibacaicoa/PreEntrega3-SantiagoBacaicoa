@@ -23,6 +23,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    #nav-mobile {
+        display: block;
+    }
+
     .nav-container {
         display: flex;
         justify-content: space-between;
@@ -38,10 +42,6 @@
     }
     .nav-secciones {
         display: none;
-    }
-
-    #nav-mobile {
-        display: block;
     }
 
     header {
@@ -74,19 +74,5 @@
 
     .cuerpo {
         height: 100%;
-    }
-
-    .tactica-img {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .box__footer .logo img {
-        width: 80%;
-    }
-
-    .box__footer .logo img:hover {
-        width: 82%;
     }
 }

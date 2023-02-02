@@ -1,36 +1,11 @@
 /* estilos de imagen */
 
-.piezas-img {
-    max-width: 100%;
-}
-
 .container-img {
     text-align: center;
     margin-bottom: 0.3rem;
 }
 
-.img-index {
-    width: 80%;
-    max-width: 100%;
-    height: auto;
-    max-height: 600px;
-    margin: 0 auto;
-    display: inline-block;
-    border: #333 2px solid;
-    box-shadow: 0 0 20px 3spx;
-}
-
 .background-chess {
     background-image: url(../assets/images/fondo-cuadricula.webp);
     background-repeat: repeat;
-}
-
-.tactica-img {
-    text-align: center;
-    margin: 0 auto;
-    width: 50%;
-
-    img {
-        width: 100%;
-    }
 }

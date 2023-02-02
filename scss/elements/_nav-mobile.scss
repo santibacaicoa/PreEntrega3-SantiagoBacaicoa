@@ -8,33 +8,38 @@
     background-color: #333;
     display: none;
     padding: 1% 7% 1% 7%;
-}
 
-.nav-menu {
-    display: none;
-}
+    .nav-input {
+        display: none;
 
-.nav-menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 0.5rem;
-}
+        &:checked + .nav-menu {
+            display: block;
+        }
+    }
 
-.nav-menu li {
-    padding: 0.5rem;
-}
+    .nav-menu {
+        display: none;
 
-.nav-menu a {
-    color: white;
-    text-decoration: none;
-}
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 0.5rem;
 
-.nav-input {
-    display: none;
-}
+            li {
+                padding: 0.5rem;
 
-.nav-input:checked + .nav-menu {
-    display: block;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        max-width: 50px;
+    }
 }
 
 /* cierre menu mobile */

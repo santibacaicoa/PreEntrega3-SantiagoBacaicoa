@@ -1,15 +1,20 @@
 /* estilos para textos y headliners */
 
+#titulo {
+    font-size: 3rem;
+    line-height: 1em;
+}
+
+#titulo-piezas {
+    text-align: center;
+    margin-top: 1rem;
+}
+
 .encabezado {
     margin: 0.5rem 0.8rem 0.5rem 0.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#titulo {
-    font-size: 3rem;
-    line-height: 1em;
 }
 
 .titulo {
@@ -55,4 +60,10 @@
 
 .padding-texto {
     padding: 0 2em;
+}
+
+.texto-piezas {
+    margin-top: 1.5rem;
+    flex-grow: 0;
+    flex-basis: 80em;
 }
