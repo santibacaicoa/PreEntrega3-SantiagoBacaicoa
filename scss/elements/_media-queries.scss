@@ -76,3 +76,8 @@
         height: 100%;
     }
 }
+@media screen and (max-width: 320px) {
+    .redes-cont {
+        display: none;
+    }
+}

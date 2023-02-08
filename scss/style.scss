@@ -19,8 +19,6 @@ html {
 
 @import "./mixins";
 
-@import "./condicional";
-
 @import "./elements/textos-headliners";
 
 @import "./elements/estilos-imagen";
@@ -35,6 +33,6 @@ html {
 
 @import "./pages";
 
-@import "./elements/media-queries";
-
 @import "./elements/nav-izquierdo";
+
+@import "./elements/media-queries";

@@ -439,6 +439,49 @@ footer {
     width: 100%;
     max-width: 500px; }
 
+/* apertura nav izquierdo */
+.sticky {
+  position: sticky;
+  top: 1%; }
+
+.nav-secciones {
+  text-align: center;
+  margin: 3% 6%;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.295);
+  border-radius: 10px; }
+  .nav-secciones ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    margin: auto; }
+    .nav-secciones ul li {
+      margin-bottom: 1rem; }
+      .nav-secciones ul li a {
+        color: #333;
+        font-size: 1.2rem;
+        font-weight: 600;
+        transition: all 0.4s;
+        text-decoration: none; }
+        .nav-secciones ul li a:hover {
+          color: black; }
+      .nav-secciones ul li ul {
+        padding: 0;
+        color: white;
+        list-style-type: none;
+        padding-top: 0.5rem; }
+        .nav-secciones ul li ul li {
+          padding-top: 0.5rem; }
+        .nav-secciones ul li ul a {
+          text-decoration: none;
+          color: black;
+          font-size: 0.9rem;
+          font-weight: 600;
+          transition: color 0.4s; }
+          .nav-secciones ul li ul a:hover {
+            color: black; }
+
 @media screen and (max-width: 1024px) {
   .nav-subsecciones-ul {
     display: none; }
@@ -485,45 +528,6 @@ footer {
   .cuerpo {
     height: 100%; } }
 
-/* apertura nav izquierdo */
-.sticky {
-  position: sticky;
-  top: 1%; }
-
-.nav-secciones {
-  text-align: center;
-  margin: 3% 6%;
-  padding: 2%;
-  background-color: rgba(255, 255, 255, 0.295);
-  border-radius: 10px; }
-  .nav-secciones ul {
-    margin: 0 auto;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-    margin: auto; }
-    .nav-secciones ul li {
-      margin-bottom: 1rem; }
-      .nav-secciones ul li a {
-        color: #333;
-        font-size: 1.2rem;
-        font-weight: 600;
-        transition: all 0.4s;
-        text-decoration: none; }
-        .nav-secciones ul li a:hover {
-          color: black; }
-      .nav-secciones ul li ul {
-        padding: 0;
-        color: white;
-        list-style-type: none;
-        padding-top: 0.5rem; }
-        .nav-secciones ul li ul li {
-          padding-top: 0.5rem; }
-        .nav-secciones ul li ul a {
-          text-decoration: none;
-          color: black;
-          font-size: 0.9rem;
-          font-weight: 600;
-          transition: color 0.4s; }
-          .nav-secciones ul li ul a:hover {
-            color: black; }
+@media screen and (max-width: 320px) {
+  .redes-cont {
+    display: none; } }
