@@ -3,7 +3,7 @@ html {
     font-weight: 300;
     line-height: 1.6em;
     box-sizing: border-box;
-    font-family: Montserrat, Tahoma, sans-serif;
+    font-family: Montserrat;
 }
 
 *,
@@ -16,6 +16,8 @@ html {
 }
 
 @import "./variables";
+
+@import "./mixins";
 
 @import "./condicional";
 

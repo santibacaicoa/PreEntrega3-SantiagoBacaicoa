@@ -20,6 +20,10 @@
             rel="stylesheet"
         />
         <!-- cierre fuentes -->
+        <script
+            src="https://kit.fontawesome.com/35cf5e0fbb.js"
+            crossorigin="anonymous"
+        ></script>
         <link rel="icon" href="../assets/icons/chess.png" />
         <link rel="stylesheet" href="../css/style.css" />
         <title>guía ajedrecística</title>
@@ -105,7 +109,53 @@
 
         <!-- apertura main -->
         <main class="main-grid">
-            <div class="aside-izq background-chess"></div>
+            <div class="aside-izq background-chess">
+                <div class="nav-secciones sticky">
+                    <ul class="nav-secciones-ul">
+                        <li class="nav-secciones-li">
+                            <a href="#" class="nav-secciones-enlace"> Inicio</a>
+                        </li>
+                        <li class="nav-secciones-li">
+                            <ul class="nav-subsecciones-ul">
+                                <li class="nav-subsecciones-li"></li>
+                                <a
+                                    href="#clavada"
+                                    class="nav-subsecciones-enlace"
+                                    >La clavada</a
+                                >
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#horquilla"
+                                        class="nav-subsecciones-enlace"
+                                        >La horquilla</a
+                                    >
+                                </li>
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#descubierta"
+                                        class="nav-subsecciones-enlace"
+                                        >Jaque a descubierta</a
+                                    >
+                                </li>
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#promocion"
+                                        class="nav-subsecciones-enlace"
+                                        >Promoción y Subpromoción</a
+                                    >
+                                </li>
+                                <li class="nav-subsecciones-li">
+                                    <a
+                                        href="#ultima"
+                                        class="nav-subsecciones-enlace"
+                                        >Mate en última fila</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
             <div class="cuerpo">
                 <h2>Cinco tácticas comunes del ajedrez</h2>
@@ -402,33 +452,32 @@
                     Somos un grupo de aficionados del ajderez y queremos
                     compartir un poco de información sobre este deporte.
                 </p>
-                <ul class="footer-redes">
-                    <li>
-                        <a href="https://www.instagram.com" target="_blank"
-                            ><img
-                                src="../assets/images/footer/instagram.webp"
-                                alt="instagram"
-                        /></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com" target="_blank"
-                            ><img
-                                src="../assets/images/footer/facebook.webp"
-                                alt="facebook"
-                        /></a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.linkedin.com/in/santiago-bacaicoa-09ab24202/"
-                            target="_blank"
-                            ><img
-                                src="../assets/images/footer/linkedin.webp"
-                                alt="linkedin"
-                        /></a>
-                    </li>
-                </ul>
+                <div class="redes-cont">
+                    <ul>
+                        <li>
+                            <a href="#" class="facebook"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="#" class="instagram"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="#" class="pinterest"
+                                ><i class="fab fa-pinterest-p"></i
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="footer-bottom">
-                    <p>copyright &copy;2023ChessGroup</p>
+                    <p>Copyright &copy;2023ChessGroup</p>
                 </div>
             </div>
         </footer>

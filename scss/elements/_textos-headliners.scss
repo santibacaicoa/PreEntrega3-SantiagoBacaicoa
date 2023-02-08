@@ -33,11 +33,8 @@
     margin: 1rem;
 }
 
-.cuerpo p {
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin: 1em 0;
-    font-family: Roboto;
+p {
+    @include p-default;
 }
 
 .temas-link {

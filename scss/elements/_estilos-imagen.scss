@@ -1,11 +1,11 @@
 /* estilos de imagen */
 
 .container-img {
-    text-align: center;
-    margin-bottom: 0.3rem;
+    @include imgcont;
 }
 
 .background-chess {
     background-image: url(../assets/images/fondo-cuadricula.webp);
     background-repeat: repeat;
+    background-attachment: fixed;
 }

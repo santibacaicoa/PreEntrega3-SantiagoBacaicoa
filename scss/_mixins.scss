@@ -1,0 +1,17 @@
+@mixin imgcont {
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+@mixin p-default {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 1em 0;
+    font-family: Roboto;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
